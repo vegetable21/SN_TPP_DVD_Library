@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="DVD" max_length="40" name="x_tssaa_dvd_lib_dvd" type="collection">
+        <element label="Release date" max_length="40" name="release_date" type="glide_date"/>
+        <element display="true" label="Title" max_length="100" name="title" type="string"/>
+    </element>
+</database>
