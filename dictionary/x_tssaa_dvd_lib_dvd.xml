@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="DVD" max_length="40" name="x_tssaa_dvd_lib_dvd" type="collection">
+        <element choice="1" label="Certificate" max_length="40" name="certificate" type="choice">
+            <choice>
+                <element label="12A" sequence="0" value="12A"/>
+            </choice>
+        </element>
+        <element label="Director" max_length="100" name="director" type="string"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
         <element label="Release date" max_length="40" name="release_date" type="glide_date"/>
+        <element label="Running time" max_length="40" name="running_time" type="glide_duration"/>
         <element display="true" label="Title" max_length="100" name="title" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
     </element>
 </database>
