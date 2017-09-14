@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Media" max_length="40" name="x_tssaa_dvd_lib_media" type="collection">
+        <element label="Attributes" max_length="4000" name="attributes" type="simple_name_values"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Title" max_length="100" name="title" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>

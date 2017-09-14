@@ -5,24 +5,24 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description>Default access control on x_tssaa_dvd_lib_dvd</description>
-        <name>x_tssaa_dvd_lib_dvd</name>
+        <description>Default access control on x_tssaa_dvd_lib_media</description>
+        <name>x_tssaa_dvd_lib_media</name>
         <operation display_value="read">read</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>andy.venables</sys_created_by>
-        <sys_created_on>2017-09-13 12:15:25</sys_created_on>
+        <sys_created_on>2017-09-14 14:42:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>cfa254f70f818b00529ace1be1050e92</sys_id>
+        <sys_id>5eed79040fd98b00529ace1be1050e5c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_tssaa_dvd_lib_dvd</sys_name>
+        <sys_name>x_tssaa_dvd_lib_media</sys_name>
         <sys_package display_value="Media Library" source="x_tssaa_dvd_lib">615ac8f70f418b00529ace1be1050e76</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Media Library">615ac8f70f418b00529ace1be1050e76</sys_scope>
-        <sys_update_name>sys_security_acl_cfa254f70f818b00529ace1be1050e92</sys_update_name>
+        <sys_update_name>sys_security_acl_5eed79040fd98b00529ace1be1050e5c</sys_update_name>
         <sys_updated_by>andy.venables</sys_updated_by>
-        <sys_updated_on>2017-09-13 12:15:25</sys_updated_on>
+        <sys_updated_on>2017-09-14 14:42:26</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
